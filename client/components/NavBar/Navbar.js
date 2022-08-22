@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Transition } from "@headlessui/react"; // for smooth transition between tabes
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -9,14 +9,20 @@ function navbar() {
   // useState is used to change the state for start it false means when we click then only it's open otherwise it's close Not.
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
-  const [color, setColor] = useState("false");
+  const [color, setColor] = useState(false);
   const changeColor = () => {
-    if (typeof window.scrollY >= 10) {
-      setColor("true");
+    if (window.scrollY <= 120) {
+      setColor(true);
     } else {
-      setColor("false");
+      setColor(false);
     }
   };
+  useEffect(() => {
+    window.addEventListener("scroll", changeColor);
+    return () => {
+      window.removeEventListener("scroll", changeColor);
+    }
+  } ,[])
   // window.addEventListener("scroll", changeColor);
   return (
     <div>
@@ -27,8 +33,8 @@ function navbar() {
             <div
               className={
                 color
-                  ? "flex fixed  shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
-                  : "flex fixed bg-white shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
+                  ? "flex fixed z-50 shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
+                  : "flex fixed z-50 bg-white shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
               }
             >
               <div className="flex justify-center items-center flex-shrink-0">
