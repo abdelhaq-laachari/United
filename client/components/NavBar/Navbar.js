@@ -33,8 +33,8 @@ function navbar() {
             <div
               className={
                 color
-                  ? "flex fixed z-50 shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
-                  : "flex fixed z-50 bg-white shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
+                  ? "flex fixed z-40 shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
+                  : "flex fixed z-40 bg-white shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
               }
             >
               <div className="flex justify-center items-center flex-shrink-0">
@@ -124,11 +124,11 @@ function navbar() {
               </div>
             </div>
             {/* Mobile section */}
-            <div className="mr-10 flex right-0 fixed lg:hidden">
+            <div className="mr-10 flex right-0 fixed z-50 lg:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="bg-blue-600 inline-flex items-center justify-center p-2 rounded-md text-white hover:bg-blue-600 focus: outline-none focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white "
+                className="bg-blue-600 inline-flex z-50 items-center justify-center p-2 rounded-md text-white hover:bg-blue-600 focus: outline-none focus:ring-offset-2 focus:ring-offset-blue-800 focus:ring-white "
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
