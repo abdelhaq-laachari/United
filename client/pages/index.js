@@ -134,8 +134,43 @@ export default function Home() {
         {/* bottom shape end */}
       </div>
       <div className={styles.third_section}>
-        <img src="/images/w.svg" alt="" />
-        <h1 className="">Why Choose United</h1>
+        <img className={styles.shape_img} src="/images/shape.svg" alt="" />
+        <div className={styles.title_third_section}>
+          <img src="/images/w.svg" alt="" />
+          <h1 className="">Why Choose United</h1>
+        </div>
+        <h1 className={styles.subtitle_third_section}>
+          It Is A Long Established
+        </h1>
+        <div className={styles.img_cards}>
+          <div className={styles.hands_img}>
+            <img src="/images/hands.png" alt="" />
+          </div>
+          <div className={styles.card_third_section}>
+            <div className={styles.doctor_img}>
+              <img src="/images/dr2.png" alt="" />
+            </div>
+            <div className={styles.par_third_section}>
+              <p>
+                It Is A Long Established Fact That A Reader Will Be Distracted
+                By The Readable Content Of A Page When Looking At Its Layout.
+                The Point Of Using Lorem Ipsum Is .
+              </p>
+            </div>
+          </div>
+          <div className={styles.cards_third_section}>
+            <div className={styles.doctors_img}>
+              <img src="/images/dr.png" alt="" />
+            </div>
+            <div className={styles.par_third_section}>
+              <p>
+                It Is A Long Established Fact That A Reader Will Be Distracted
+                By The Readable Content Of A Page When Looking At Its Layout.
+                The Point Of Using Lorem Ipsum Is .
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
