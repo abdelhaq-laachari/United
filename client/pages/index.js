@@ -22,7 +22,7 @@ export default function Home() {
           <img className={styles.t_img} src="/images/shape.svg" alt="" />
         </div>
       </div>
-      <div className={styles.dd}>
+      <div className={styles.second_section}>
         {/* top shape start */}
         <div className={styles.custom_shape_divider_top_1661243877}>
           <svg
@@ -38,48 +38,85 @@ export default function Home() {
           </svg>
         </div>
         {/* top shape end */}
-
-        {/* content start */}
-
-        {/* title start  */}
-        <h1 className={styles.second_title}>I'm living with</h1>
-        {/* title end  */}
-
         {/* card start */}
-        <div class="p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
-            </h5>
-          </a>
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Here are the biggest enterprise technology acquisitions of 2021 so
-            far, in reverse chronological order.
-          </p>
-          <a
-            href="#"
-            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >
-            Read more
-            <svg
-              aria-hidden="true"
-              class="ml-2 -mr-1 w-4 h-4"
-              fill="currentColor"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                clip-rule="evenodd"
-              ></path>
-            </svg>
-          </a>
-        </div>
+        <section class="flex-col items-center">
+          <h1 className={styles.second_title}>I'm living with</h1>
+          <div class="max-w-6xl py-12 mx-auto ">
+            <div class="grid gap-8 md:grid-cols-2 lg:gap-12 ">
+              <a
+                href="#_"
+                class="flex items-center flex-col p-6 space-y-6 transition-all duration-500 bg-white border border-indigo-100 rounded-lg shadow hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6"
+              >
+                <div class="flex items-center justify-center w-16 h-16 border border-indigo-200 shadow-inner bg-gradient-to-br from-indigo-50 to-indigo-200 rounded-xl lg:h-20 lg:w-20">
+                  <img src="/images/lung.png" alt="" />
+                </div>
+                <div class="flex-1">
+                  <h5 className={styles.title_cancer}>Lung</h5>
+                  <p className={styles.par_cancer}>
+                    Engrossed listening. Park gate sell they west hard for
+                    the.Engrossed listening. Park gate sell they west hard for
+                    the.
+                  </p>
+                  <span class="flex items-center text-lg font-bold text-indigo-600">
+                    Read more
+                    <svg
+                      class="w-4 h-4 ml-2"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"
+                      ></path>
+                    </svg>
+                  </span>
+                </div>
+              </a>
+              <a
+                href="#_"
+                class="flex items-center flex-col p-6 space-y-6 transition-all duration-500 bg-white border border-indigo-100 rounded-lg shadow hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6"
+              >
+                <div class="flex items-center justify-center w-16 h-16 border border-indigo-200 shadow-inner bg-gradient-to-br from-indigo-50 to-indigo-200 rounded-xl lg:h-20 lg:w-20">
+                  <img
+                    className={styles.img_cancer}
+                    src="/images/breast.png"
+                    alt=""
+                  />
+                </div>
+                <div class="flex-1">
+                  <h5 className={styles.title_cancer}>Breast</h5>
+                  <p className={styles.par_cancer}>
+                    Engrossed listening. Park gate sell they west hard for
+                    the.Engrossed listening. Park gate sell they west hard for
+                    the.
+                  </p>
+                  <span class="flex items-center text-lg font-bold text-indigo-600">
+                    Read more
+                    <svg
+                      class="w-4 h-4 ml-2"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"
+                      ></path>
+                    </svg>
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
         {/* card end */}
-
-        {/* content end */}
-
         {/* bottom shape start */}
         <div className={styles.custom_shape_divider_bottom_1661243641}>
           <svg
@@ -95,6 +132,10 @@ export default function Home() {
           </svg>
         </div>
         {/* bottom shape end */}
+      </div>
+      <div className={styles.third_section}>
+        <img src="/images/w.svg" alt="" />
+        <h1 className="">Why Choose United</h1>
       </div>
     </div>
   );

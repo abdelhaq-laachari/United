@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .bg {
   width: 100%;
   overflow: hidden;
@@ -40,12 +41,15 @@
   left: -6%;
   top: 6%;
 }
-.dd {
+.second_section {
   position: relative;
   height: 100vh;
-  background: #C7AEE5;
+  background: #c7aee5;
   margin-top: 2rem;
-  padding-top: 6rem;
+  /* padding-top: 6rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* top shape start */
 .custom_shape_divider_top_1661243877 {
@@ -100,11 +104,57 @@
 }
 /* bottom shape end */
 
-.second_title{
+.second_title {
   font-family: "quicksand";
   font-size: 35px;
   font-weight: 700;
-  line-height: 1.4;
   color: #fff;
   text-align: center;
+}
+
+.img_cancer {
+  width: 70%;
+}
+.img_cancer img {
+  width: 80%;
+}
+.text_cancer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 0.9rem;
+}
+.title_cancer {
+  font-family: "quicksand";
+  font-size: 25px;
+  font-weight: 700;
+  color: #000;
+  padding-left: 1.8rem;
+}
+.par_cancer {
+  font-family: "poppins";
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 1.5;
+  color: #5e6282;
+}
+
+.third_section {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.third_section img{
+  width: 40%;
+}
+.third_section h1{
+  position: absolute;
+  top: 20%;
+  font-family: "quicksand";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #000;
 }
