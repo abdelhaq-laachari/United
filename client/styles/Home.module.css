@@ -45,6 +45,7 @@
   height: 100vh;
   background: #C7AEE5;
   margin-top: 2rem;
+  padding-top: 6rem;
 }
 /* top shape start */
 .custom_shape_divider_top_1661243877 {
@@ -98,3 +99,12 @@
   fill: #ffffff;
 }
 /* bottom shape end */
+
+.second_title{
+  font-family: "quicksand";
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #fff;
+  text-align: center;
+}
