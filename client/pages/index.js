@@ -236,9 +236,65 @@ export default function Home() {
           </svg>
         </div>
         {/* bottom shape end */}
-        {/* why choose united section end here */}
-        
       </div>
+
+      {/* why choose united section end here */}
+      {/* who we are section start */}
+      <img className={styles.shape_img} src="/images/shape.svg" alt="" />
+      <div className={styles.section_five}>
+        <div className={styles.section_five_img}>
+          <img src="/images/team.png" alt="" />
+        </div>
+        <div className={styles.section_five_text}>
+          <div className={styles.section_five_title}>
+            <img src="/images/w.svg" alt="" />
+            <h1 className="">Who are we?</h1>
+          </div>
+          <p>
+            In consequat, quam id sodales hendrerit, eros mi molestie leo an
+            lacinia risus neque tristique augue. Proin tempus urna vel congue
+            elementum. Vestibulum euismod accumsan.
+          </p>
+          <div className={styles.section_five_span}>
+            <span className={styles.section_five_dot}>
+              <span className={styles.dot}></span>
+              Lorem ipsum dolor sit amet into consectetur adipiscing elit.
+            </span>
+            <span className={styles.section_five_dot}>
+              <span className={styles.dot}></span>
+              Lorem ipsum dolor sit amet into consectetu.
+            </span>
+            <span className={styles.section_five_dot}>
+              <span className={styles.dot}></span>
+              Lorem ipsum dolor sit amet into consectetur adipiscing.
+            </span>
+          </div>
+          <button className="bg-gradient-to-r w-max from-purple-400 to-purple-700 hover:to-purple-800 text-white text-sm font-bold py-2 px-4 rounded-full ">
+            Find out more
+          </button>
+        </div>
+      </div>
+      <img className={styles.shape2_img} src="/images/shape.svg" alt="" />
+      {/* who we are section end */}
+      {/* our partners section start */}
+      <div className={styles.section_six}>
+        {/* top shape start */}
+        <div className={styles.custom_shape_divider_top_1661344935}>
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              className={styles.shape_fill}
+            ></path>
+          </svg>
+        </div>
+        {/* top shape end */}
+      </div>
+      {/* our partners section end */}
     </div>
   );
 }
