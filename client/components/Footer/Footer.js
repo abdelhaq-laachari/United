@@ -158,7 +158,7 @@ function footer() {
                 <div className={styles.apps_logo}>
                   <img src="/images/google.png" alt="" />
                   <img src="/images/apple.png" alt="" />
-                </div>
+                </div> 
               </div>
             </div>
           </div>
