@@ -1,0 +1,21 @@
+.apps{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+.apps_title {
+  color: #5e6282;
+  font-family: "poppins";
+  font-size: 1rem;
+  font-weight: bold;
+  /* padding-left: 1rem; */
+}
+.apps_logo {
+    display: flex;
+    width: 100px;
+    gap: 1rem;
+}
+.apps_logo img{
+    width: 100%;
+}
