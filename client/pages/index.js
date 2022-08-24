@@ -22,6 +22,7 @@ export default function Home() {
           <img className={styles.t_img} src="/images/shape.svg" alt="" />
         </div>
       </div>
+      {/* i'm living with Section start */}
       <div className={styles.second_section}>
         {/* top shape start */}
         <div className={styles.custom_shape_divider_top_1661243877}>
@@ -133,6 +134,8 @@ export default function Home() {
         </div>
         {/* bottom shape end */}
       </div>
+      {/* i'm living with Section end */}
+      {/* why choose united section */}
       <div className={styles.third_section}>
         <img className={styles.shape_img} src="/images/shape.svg" alt="" />
         <div className={styles.title_third_section}>
@@ -171,6 +174,70 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+      <div className={styles.fourth_section}>
+        {/* top shape start */}
+        <div className={styles.custom_shape_divider_top_1661243877}>
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              className={styles.shape_fill}
+            ></path>
+          </svg>
+        </div>
+        {/* top shape end */}
+        {/* content start */}
+        <div className={styles.content_fourth_section}>
+          <div className={styles.fourth_title}>
+            <h1>E English. Many Desktop Publishing</h1>
+            <p>
+              M As Their Default Model Text, And A Search For 'Lorem Ipsum' Will
+              Uncover Many Web Sites{" "}
+            </p>
+          </div>
+          <div className={styles.right_content}>
+            <div className={styles.fourth_img}>
+              <img src="/images/support.png" alt="" />
+            </div>
+            <div className={styles.card}>
+              <div className={styles.card_fourth_section}>
+                <div className={styles.man_img}>
+                  <img src="/images/ss.png" alt="" />
+                </div>
+                <div className={styles.par_third_section}>
+                  <p>
+                    It Is A Long Established Fact That A Reader Will Be
+                    Distracted By The Readable Content Of A Page When Looking At
+                    Its Layout. The Point Of Using Lorem Ipsum Is .
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* content end */}
+        {/* bottom shape start */}
+        <div className={styles.custom_shape_divider_bottom_1661243641}>
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+              className={styles.shape_fill}
+            ></path>
+          </svg>
+        </div>
+        {/* bottom shape end */}
+        {/* why choose united section end here */}
+        
       </div>
     </div>
   );

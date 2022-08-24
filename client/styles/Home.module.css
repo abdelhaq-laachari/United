@@ -42,7 +42,7 @@
 }
 .second_section {
   position: relative;
-  height: 100vh;
+  height: 120vh;
   background: #c7aee5;
   margin-top: 2rem;
   /* padding-top: 6rem; */
@@ -237,3 +237,72 @@
 .doctors_img img {
   width: 90%;
 }
+.fourth_section {
+  position: relative;
+  height: 100vh;
+  background: #c7aee5;
+  margin-top: 2rem;
+  z-index: -2;
+}
+.content_fourth_section{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+}
+.fourth_title{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 80%;
+  justify-content: center;
+  gap: 1rem;
+}
+.fourth_title h1{
+  font-family: "quicksand";
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 1.3;
+  color: #fff;
+}
+.fourth_title p{
+  font-family: "quicksand";
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.4;
+  color: #fff;
+}
+.right_content{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: end;
+  /* background: #000; */
+}
+.man_img{
+  width: 100px;
+  position: absolute;
+  top: -100%;
+  z-index: -1;
+}
+.man_img img{
+  width: 90%;
+}
+.fourth_img{
+  width: 60%;
+  position: absolute;
+  top: 25%;
+}
+.fourth_img img{
+  width: 100%;
+}
+.card_fourth_section {
+  width: 600px;
+  position: absolute;
+  top: 60%;
+  right: 10%;
+}
+/* section four end here */
+
+/* section five start */

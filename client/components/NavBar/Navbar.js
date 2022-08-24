@@ -33,7 +33,7 @@ function navbar() {
             <div
               className={
                 color
-                  ? "flex fixed z-40 shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
+                  ? "flex fixed z-40  shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
                   : "flex fixed z-40 bg-white shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
               }
             >
