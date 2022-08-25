@@ -21,8 +21,8 @@ function navbar() {
     window.addEventListener("scroll", changeColor);
     return () => {
       window.removeEventListener("scroll", changeColor);
-    }
-  } ,[])
+    };
+  }, []);
   // window.addEventListener("scroll", changeColor);
   return (
     <div>
@@ -115,7 +115,7 @@ function navbar() {
                   </Link>
                   <Link href="/blog/post">
                     <a>
-                      <button className="bg-blue-500 hover:bg-blue-700 text-white text-sm font-bold py-2 px-4 rounded-full ">
+                      <button className="bg-gradient-to-r from-purple-400 to-purple-700 hover:to-purple-800 text-white text-xs font-bold py-2 px-4 rounded-full ">
                         Be a fighter
                       </button>
                     </a>

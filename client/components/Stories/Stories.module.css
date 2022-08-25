@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    gap: 10px;
+    /* padding-left: 1rem; */
+  }
+  .title h1 {
+    font-family: "poppins";
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  .first {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    /* padding: 1rem; */
+  }
+  .first_img {
+    width: 120px;
+  }
+  .first_img img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .first_text h1 {
+    font-family: "poppins";
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .first_text span {
+    font-size: 10px;
+  }
+  

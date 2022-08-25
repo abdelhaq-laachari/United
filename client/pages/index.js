@@ -13,7 +13,7 @@ export default function Home() {
           <h1>
             Be a chancer, the cancer <br /> rules balancer !
           </h1>
-          <button className="bg-gradient-to-r from-purple-400 to-purple-700 hover:to-purple-800 text-white text-sm font-bold py-2 px-4 rounded-full ">
+          <button className="bg-gradient-to-r from-purple-400 to-purple-700 hover:to-purple-800 text-white text-xs font-bold py-2 px-4 rounded-full ">
             Find out more
           </button>
         </div>

@@ -1,3 +1,20 @@
-.container{
-    background: #FAF9F7;
+.section {
+  width: 100%;
+  background: #faf9f7;
+}
+.container {
+  width: 95%;
+  display: flex;
+  padding-top: 1rem;
+  justify-content: space-between;
+  margin: auto;
+}
+.left {
+  width: 23%;
+}
+.middle {
+  width: 40%;
+}
+.right {
+  width: 23%;
 }
