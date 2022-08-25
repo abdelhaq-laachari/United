@@ -41,37 +41,37 @@ export default function Home() {
         </div>
         {/* top shape end */}
         {/* card start */}
-        <section class="flex-col items-center">
+        <section className="flex-col items-center">
           <h1 className={styles.second_title}>I'm living with</h1>
-          <div class="max-w-6xl py-12 mx-auto ">
-            <div class="grid gap-8 md:grid-cols-2 lg:gap-12 ">
+          <div className="max-w-6xl py-12 mx-auto ">
+            <div className="grid gap-8 md:grid-cols-2 lg:gap-12 ">
               <a
                 href="#_"
-                class="flex items-center flex-col p-6 space-y-6 transition-all duration-500 bg-white border border-indigo-100 rounded-lg shadow hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6"
+                className="flex items-center flex-col p-6 space-y-6 transition-all duration-500 bg-white border border-indigo-100 rounded-lg shadow hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6"
               >
-                <div class="flex items-center justify-center w-16 h-16 border border-indigo-200 shadow-inner bg-gradient-to-br from-indigo-50 to-indigo-200 rounded-xl lg:h-20 lg:w-20">
+                <div className="flex items-center justify-center w-16 h-16 border border-indigo-200 shadow-inner bg-gradient-to-br from-indigo-50 to-indigo-200 rounded-xl lg:h-20 lg:w-20">
                   <img src="/images/lung.png" alt="" />
                 </div>
-                <div class="flex-1">
+                <div className="flex-1">
                   <h5 className={styles.title_cancer}>Lung</h5>
                   <p className={styles.par_cancer}>
                     Engrossed listening. Park gate sell they west hard for
                     the.Engrossed listening. Park gate sell they west hard for
                     the.
                   </p>
-                  <span class="flex items-center text-lg font-bold text-indigo-600">
+                  <span className="flex items-center text-lg font-bold text-indigo-600">
                     Read more
                     <svg
-                      class="w-4 h-4 ml-2"
+                      className="w-4 h-4 ml-2"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M14 5l7 7m0 0l-7 7m7-7H3"
                       ></path>
                     </svg>
@@ -80,35 +80,35 @@ export default function Home() {
               </a>
               <a
                 href="#_"
-                class="flex items-center flex-col p-6 space-y-6 transition-all duration-500 bg-white border border-indigo-100 rounded-lg shadow hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6"
+                className="flex items-center flex-col p-6 space-y-6 transition-all duration-500 bg-white border border-indigo-100 rounded-lg shadow hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6"
               >
-                <div class="flex items-center justify-center w-16 h-16 border border-indigo-200 shadow-inner bg-gradient-to-br from-indigo-50 to-indigo-200 rounded-xl lg:h-20 lg:w-20">
+                <div className="flex items-center justify-center w-16 h-16 border border-indigo-200 shadow-inner bg-gradient-to-br from-indigo-50 to-indigo-200 rounded-xl lg:h-20 lg:w-20">
                   <img
                     className={styles.img_cancer}
                     src="/images/breast.png"
                     alt=""
                   />
                 </div>
-                <div class="flex-1">
+                <div className="flex-1">
                   <h5 className={styles.title_cancer}>Breast</h5>
                   <p className={styles.par_cancer}>
                     Engrossed listening. Park gate sell they west hard for
                     the.Engrossed listening. Park gate sell they west hard for
                     the.
                   </p>
-                  <span class="flex items-center text-lg font-bold text-indigo-600">
+                  <span className="flex items-center text-lg font-bold text-indigo-600">
                     Read more
                     <svg
-                      class="w-4 h-4 ml-2"
+                      className="w-4 h-4 ml-2"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
                         d="M14 5l7 7m0 0l-7 7m7-7H3"
                       ></path>
                     </svg>
