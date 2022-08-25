@@ -52,3 +52,83 @@
   font-size: 12px;
   font-family: "poppins";
 }
+.post_img {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.post_img img {
+  width: 100%;
+}
+.third {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.third_left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.third_left svg {
+  color: red;
+  width: 0.9rem;
+}
+.third > span {
+  font-size: 13px;
+  font-family: "poppins";
+}
+.fourth{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 0.3rem;
+    margin-top: 0.2rem;
+}
+.like {
+  font-size: 30px;
+  width: 20px;
+}
+.section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section span {
+  font-size: 13px;
+  font-family: "poppins";
+}
+.top {
+    width: 100%;
+    border-radius: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    background: #fff;
+    margin-top: 0.5rem;
+  }
+  .avatar {
+    width: 40px;
+  }
+  .avatar img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  .top_span {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 0.4rem;
+    background: #f0f2f5;
+  }
+  .top_span span {
+    font-size: 12px;
+    font-family: "poppins";
+    color: rgba(0, 0, 0, 0.6);
+  }
