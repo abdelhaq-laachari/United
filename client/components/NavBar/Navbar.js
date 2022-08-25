@@ -51,7 +51,7 @@ function navbar() {
                     <a
                       className={
                         router.pathname == "/"
-                          ? "text-blue-500 font-semibold px-2 py-4 text-sm hover:text-blue-800"
+                          ? "text-blue-500   font-semibold px-2 py-4 text-sm hover:text-blue-800"
                           : " font-semibold px-2 py-4 hover:text-blue-600 text-sm"
                       }
                     >
@@ -62,8 +62,8 @@ function navbar() {
                     <a
                       className={
                         router.pathname == "/about"
-                          ? "text-blue-500 font-semibold px-2 py-4 text-sm hover:text-blue-800"
-                          : " font-semibold px-2 py-4 hover:text-blue-600 text-sm"
+                          ? "text-blue-500 font-semibold space-x-0 px-2 py-4 text-sm hover:text-blue-800"
+                          : " font-semibold px-2 py-4 space-x-0 hover:text-blue-600 text-sm"
                       }
                     >
                       Prevention
@@ -80,10 +80,10 @@ function navbar() {
                       News & Events
                     </a>
                   </Link>
-                  <Link href="/blog/post">
+                  <Link href="/sharingSpace">
                     <a
                       className={
-                        router.pathname == "/blog/post"
+                        router.pathname == "/sharingSpace"
                           ? "text-blue-500 font-semibold px-2 py-4 text-sm hover:text-blue-800"
                           : " font-semibold px-2 py-4 hover:text-blue-600 text-sm"
                       }

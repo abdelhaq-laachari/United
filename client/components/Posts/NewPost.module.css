@@ -1,0 +1,14 @@
+.top {
+  width: 40%;
+  background: #000;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 9px 8px 12px -6px rgba(0, 0, 0, 0.72);
+  box-shadow: 6px 8px 12px -6px rgba(0, 0, 0, 0.62);
+}
+.avatar {
+  width: 80px;
+}
+.avatar img {
+  width: 100%;
+  border-radius: 50%;
+}
