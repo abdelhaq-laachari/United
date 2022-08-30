@@ -14,7 +14,7 @@ function post() {
     />
   );
   return (
-    <div>
+    <div className={styles.main}>
       <div className={styles.container}>
         <div className={styles.first}>
           <div className={styles.left}>
@@ -48,7 +48,7 @@ function post() {
           </p>
         </div>
         <div className={styles.post_img}>
-          <img src="/posts/post/p1.jpg" alt="" />
+          <img src="/posts/post/p4.jpg" alt="" />
         </div>
         <div className={styles.third}>
           <div className={styles.third_left}>

@@ -1,0 +1,80 @@
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  width: 45%;
+}
+.left img {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 2px 2px 8px 3px rgba(0, 0, 0, 0.19);
+}
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.first {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.first h3 {
+  font-size: 16px;
+  font-family: "Quicksand";
+  font-weight: bold;
+  color: #1d1f23;
+}
+.first span {
+  font-size: 12px;
+  font-family: "Quicksand";
+  font-weight: 500;
+  color: #a9a9a9;
+}
+.second h1 {
+  font-size: 30px;
+  font-family: "poppins";
+  font-weight: bold;
+}
+.third p {
+  font-size: 14px;
+  font-family: "Quicksand";
+  font-weight: 600;
+  color: #a9a9a9;
+  line-height: 1.7;
+}
+.fourth {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.fourth_left {
+  width: 60px;
+}
+.fourth_left img {
+  width: 100%;
+  border-radius: 50%;
+}
+.fourth_right {
+  display: flex;
+  flex-direction: column;
+}
+.fourth_right h3 {
+  font-family: "quicksand";
+  font-size: 18px;
+  font-weight: bold;
+}
+.fourth_right span {
+  font-family: "quicksand";
+  font-size: 11px;
+  font-weight: 600;
+  color: #a9a9a9;
+}

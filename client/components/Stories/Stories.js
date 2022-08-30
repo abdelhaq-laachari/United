@@ -8,7 +8,7 @@ function FileName() {
       </div>
       <div className={styles.first}>
         <div className={styles.first_img}>
-          <img src="/blogs/b2.jpg" alt="" />
+          <img src="/stories/s2.jpg" alt="" />
         </div>
         <div className={styles.first_text}>
           <h1>Massa eros etiam diam massa gravida nullam urna</h1>
@@ -17,7 +17,7 @@ function FileName() {
       </div>
       <div className={styles.first}>
         <div className={styles.first_img}>
-          <img src="/blogs/b3.jpg" alt="" />
+          <img src="/stories/s3.jpg" alt="" />
         </div>
         <div className={styles.first_text}>
           <h1>Massa eros etiam diam massa gravida nullam urna</h1>
@@ -26,7 +26,7 @@ function FileName() {
       </div>
       <div className={styles.first}>
         <div className={styles.first_img}>
-          <img src="/blogs/b1.jpg" alt="" />
+          <img src="/stories/s1.jpg" alt="" />
         </div>
         <div className={styles.first_text}>
           <h1>Massa eros etiam diam massa gravida nullam urna</h1>

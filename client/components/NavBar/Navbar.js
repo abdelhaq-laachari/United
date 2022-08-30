@@ -51,8 +51,8 @@ function navbar() {
                     <a
                       className={
                         router.pathname == "/"
-                          ? "text-blue-500   font-semibold px-2 py-4 text-sm hover:text-blue-800"
-                          : " font-semibold px-2 py-4 hover:text-blue-600 text-sm"
+                          ? "text-purple-500   font-semibold px-2 py-4 text-xs hover:text-purple-800"
+                          : " font-semibold px-2 py-4 hover:text-purple-600 text-xs"
                       }
                     >
                       Orientation
@@ -62,19 +62,19 @@ function navbar() {
                     <a
                       className={
                         router.pathname == "/about"
-                          ? "text-blue-500 font-semibold space-x-0 px-2 py-4 text-sm hover:text-blue-800"
-                          : " font-semibold px-2 py-4 space-x-0 hover:text-blue-600 text-sm"
+                          ? "text-purple-500 font-semibold space-x-0 px-2 py-4 text-xs hover:text-purple-800"
+                          : " font-semibold px-2 py-4 space-x-0 hover:text-purple-600 text-xs"
                       }
                     >
                       Prevention
                     </a>
                   </Link>
-                  <Link href="/blog">
+                  <Link href="/NewsEvents">
                     <a
                       className={
-                        router.pathname == "/blog"
-                          ? "text-blue-500 font-semibold px-2 py-4 text-sm hover:text-blue-800"
-                          : " font-semibold px-2 py-4 hover:text-blue-600 text-sm"
+                        router.pathname == "/NewsEvents"
+                          ? "text-purple-500 font-semibold px-2 py-4 text-xs hover:text-purple-800"
+                          : " font-semibold px-2 py-4 hover:text-purple-600 text-xs"
                       }
                     >
                       News & Events
@@ -84,8 +84,8 @@ function navbar() {
                     <a
                       className={
                         router.pathname == "/sharingSpace"
-                          ? "text-blue-500 font-semibold px-2 py-4 text-sm hover:text-blue-800"
-                          : " font-semibold px-2 py-4 hover:text-blue-600 text-sm"
+                          ? "text-purple-500 font-semibold px-2 py-4 text-xs hover:text-purple-800"
+                          : " font-semibold px-2 py-4 hover:text-purple-600 text-xs"
                       }
                     >
                       Sharing Space
@@ -95,8 +95,8 @@ function navbar() {
                     <a
                       className={
                         router.pathname == "/blog/post"
-                          ? "text-blue-500 font-semibold px-2 py-4 text-sm hover:text-blue-800"
-                          : " font-semibold px-2 py-4 hover:text-blue-600 text-sm"
+                          ? "text-purple-500 font-semibold px-2 py-4 text-xs hover:text-purple-800"
+                          : " font-semibold px-2 py-4 hover:text-purple-600 text-xs"
                       }
                     >
                       I Need Help
@@ -106,8 +106,8 @@ function navbar() {
                     <a
                       className={
                         router.pathname == "/blog/post"
-                          ? "text-blue-500 font-semibold px-2 py-4 text-sm hover:text-blue-800"
-                          : " font-semibold px-2 py-4 hover:text-blue-600 text-sm"
+                          ? "text-purple-500 font-semibold px-2 py-4 text-xs hover:text-purple-800"
+                          : " font-semibold px-2 py-4 hover:text-purple-600 text-xs"
                       }
                     >
                       Influence
@@ -115,7 +115,7 @@ function navbar() {
                   </Link>
                   <Link href="/blog/post">
                     <a>
-                      <button className="bg-gradient-to-r from-purple-400 to-purple-700 hover:to-purple-800 text-white text-xs font-bold py-2 px-4 rounded-full ">
+                      <button className="bg-gradient-to-r from-purple-400 to-purple-700 hover:to-purple-800 text-white text-xs font-bold py-2 px-3 rounded-full drop-shadow-lg ">
                         Be a fighter
                       </button>
                     </a>

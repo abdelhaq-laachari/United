@@ -1,4 +1,5 @@
 import styles from "./blogs.module.css";
+import Link from "next/link";
 
 function FileName() {
   return (
@@ -34,9 +35,13 @@ function FileName() {
         </div>
       </div>
       <div>
-        <button className="bg-gradient-to-r from-purple-400 to-purple-700 hover:to-purple-800 text-white text-xs font-bold py-2 px-3 rounded-full ">
-          See all Blogs
-        </button>
+        <Link href="/Blogs">
+          <a>
+            <button className="bg-gradient-to-r from-purple-400 to-purple-700 hover:to-purple-800 text-white text-xs font-bold py-2 px-3 rounded-full ">
+              See all Blogs
+            </button>
+          </a>
+        </Link>
       </div>
     </div>
   );

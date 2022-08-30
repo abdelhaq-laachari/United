@@ -1,10 +1,10 @@
 .container {
-  width: 100%;
+  width: 80%;
   padding: 0.7rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin: 1rem;
+  /* margin: 1rem; */
   background: #fff;
   border-radius: 8px;
   -webkit-box-shadow: 9px 8px 12px -6px rgba(0, 0, 0, 0.72);
