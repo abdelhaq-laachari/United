@@ -9,7 +9,7 @@ function footer() {
             <div className="col-span-3">
               <a
                 href="#_"
-                className="text-xl font-black leading-none text-gray-900 select-none logo"
+                className="text-xl italic font-black leading-none text-gray-900 select-none logo"
               >
                 United.
               </a>
@@ -97,7 +97,7 @@ function footer() {
               </div>
             </nav>
             <div className="col-span-3">
-              <div className="flex  mt-8 space-x-6">
+              <div className="flex items-center mt-8 space-x-6">
                 <a href="#" className="text-purple-700 hover:text-purple-500">
                   <span className="sr-only">Facebook</span>
                   <svg

@@ -33,8 +33,8 @@ function navbar() {
             <div
               className={
                 color
-                  ? "flex fixed z-40  shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
-                  : "flex fixed z-40 bg-white shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
+                  ? "flex fixed z-40 bg-violet-50 opacity-75 shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
+                  : "flex fixed z-40 bg-violet-50  shadow-sm top-0 left-0 items items-center py-2 px-20 justify-between w-full"
               }
             >
               <div className="flex justify-center items-center flex-shrink-0">
@@ -51,7 +51,7 @@ function navbar() {
                     <a
                       className={
                         router.pathname == "/"
-                          ? "text-purple-500   font-semibold px-2 py-4 text-xs hover:text-purple-800"
+                          ? "text-purple-500   font-semibold px-2 py-4 text-base hover:text-purple-800"
                           : " font-semibold px-2 py-4 hover:text-purple-600 text-xs"
                       }
                     >
