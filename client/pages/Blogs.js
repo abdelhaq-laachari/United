@@ -2,12 +2,18 @@ import styles from "../styles/Blogs.module.css";
 import Navbar from "../components/NavBar/Navbar";
 import Slide from "../components/Blogs/Slide";
 import GrideSection from "../components/Blogs/GrideSection";
+import CategorySection from "../components/Blogs/CategorySection";
+import Footer from "../components/Footer/Footer"
+
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay } from "swiper";
+import { Pagination } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
+import "swiper/css/pagination";
 
 export default function () {
   SwiperCore.use([Autoplay]);
@@ -20,11 +26,14 @@ export default function () {
         </div>
         <div>
           <Swiper
+            pagination={true}
+            modules={[Pagination]}
             loop={true}
             autoplay={{
               delay: 2000,
             }}
             slidesPerView={1}
+            className={styles.mySwiper}
           >
             <SwiperSlide>
               <div className={styles.container}>
@@ -180,6 +189,8 @@ export default function () {
           <GrideSection />
         </div>
       </div>
+      <CategorySection/>
+      <Footer/>
     </div>
   );
 }

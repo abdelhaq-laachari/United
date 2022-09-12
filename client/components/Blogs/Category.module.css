@@ -1,0 +1,50 @@
+.first {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+.first h3 {
+  font-size: 14px;
+  font-family: "Quicksand";
+  font-weight: bold;
+  color: #1d1f23;
+}
+.first span {
+  font-size: 10px;
+  font-family: "Quicksand";
+  font-weight: 500;
+  color: #a9a9a9;
+}
+.second h1 {
+  font-size: 15px;
+  font-family: "poppins";
+  font-weight: bold;
+  margin: 0.3rem 0;
+}
+.fourth {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+.fourth_left {
+  width: 40px;
+}
+.fourth_left img {
+  width: 100%;
+  border-radius: 50%;
+}
+.fourth_right {
+  display: flex;
+  flex-direction: column;
+}
+.fourth_right h3 {
+  font-family: "quicksand";
+  font-size: 15px;
+  font-weight: bold;
+}
+.fourth_right span {
+  font-family: "quicksand";
+  font-size: 11px;
+  font-weight: 600;
+  color: #a9a9a9;
+}
