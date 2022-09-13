@@ -9,19 +9,19 @@ export default function categorySection() {
         <div className="item">
           <h1 className="font-bold text-4xl py-12">Business</h1>
           <div className="flex flex-col gap-6">
-            {Post()}
-            {Post()}
-            {Post()}
-            {Post()}
+            {Post('/blogs/b1.jpg')}
+            {Post('/blogs/b2.jpg')}
+            {Post('/blogs/b3.jpg')}
+            {Post('/blogs/b4.jpg')}
           </div>
         </div>
         <div className="item">
           <h1 className="font-bold text-4xl py-12">Travels</h1>
           <div className="flex flex-col gap-6">
-            {Post()}
-            {Post()}
-            {Post()}
-            {Post()}
+            {Post('/blogs/b4.jpg')}
+            {Post('/blogs/b3.jpg')}
+            {Post('/blogs/b2.jpg')}
+            {Post('/blogs/b1.jpg')}
           </div>
         </div>
       </div>
@@ -29,7 +29,7 @@ export default function categorySection() {
   );
 }
 
-function Post() {
+function Post(img) {
   return (
     <div
       className="flex items-center
@@ -40,7 +40,7 @@ function Post() {
           <a>
             <Image
               className="rounded"
-              src={"/blogs/b4.jpg"}
+              src={img}
               width={150}
               height={100}
             />
