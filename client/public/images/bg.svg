@@ -1,14 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="950.635" height="1308.038" viewBox="0 0 950.635 1308.038">
   <defs>
-    <style>
-      .cls-1 {
-        fill: #c7aee5;
-      }
-
-      .cls-2 {
-        filter: url(#Decore);
-      }
-    </style>
     <filter id="Decore" x="0" y="0" width="950.635" height="1308.038" filterUnits="userSpaceOnUse">
       <feOffset dx="-3" dy="11" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -18,8 +9,8 @@
     </filter>
   </defs>
   <g id="bg" transform="translate(-1032.672 154)">
-    <g class="cls-2" transform="matrix(1, 0, 0, 1, 1032.67, -154)">
-      <path id="Decore-2" data-name="Decore" class="cls-1" d="M27.149,149.088c-20.487,90.535-49.169,297,0,398.552C88.61,674.586,234.656,647.278,266.3,706.323s-20.69,214.775,70.589,273.82,41.38,171.968,151.523,242.083c88.115,56.093,301.626,67.163,397.367,65.687l46.856-887.147L854.135,0Z" transform="translate(12)"/>
+    <g transform="matrix(1, 0, 0, 1, 1032.67, -154)" filter="url(#Decore)">
+      <path id="Decore-2" data-name="Decore" d="M27.149,149.088c-20.487,90.535-49.169,297,0,398.552C88.61,674.586,234.656,647.278,266.3,706.323s-20.69,214.775,70.589,273.82,41.38,171.968,151.523,242.083c88.115,56.093,301.626,67.163,397.367,65.687l46.856-887.147L854.135,0Z" transform="translate(12)" fill="#c47aff"/>
     </g>
   </g>
 </svg>

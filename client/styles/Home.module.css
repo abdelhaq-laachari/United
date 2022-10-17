@@ -246,12 +246,7 @@
   width: 90%;
 }
 .fourth_section {
-  background: rgb(166, 108, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(166, 108, 255, 1) 0%,
-    rgba(199, 174, 229, 1) 100%
-  );
+  background: #C47AFF;
 }
 .break_white {
   position: relative;
@@ -406,12 +401,7 @@
   position: relative;
   height: 80vh;
   /* background: #c7aee5; */
-  background: rgb(166, 108, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(166, 108, 255, 1) 0%,
-    rgba(199, 174, 229, 1) 100%
-  );
+  background: #C47AFF;
   z-index: -2;
 }
 .custom_shape_divider_top_1661344935 {
