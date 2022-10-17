@@ -41,12 +41,7 @@
   top: 6%;
 }
 .second_section {
-  background: rgb(166, 108, 255);
-  background: linear-gradient(
-    0deg,
-    rgba(166, 108, 255, 1) 0%,
-    rgba(199, 174, 229, 1) 100%
-  );
+  background: #C47AFF;
 }
 .white_break {
   position: relative;
@@ -213,12 +208,7 @@
 .par_third_section {
   padding: 1rem;
   border-radius: 0.5rem;
-  background: rgb(140, 65, 255);
-  background: linear-gradient(
-    90deg,
-    rgba(140, 65, 255, 1) 0%,
-    rgba(181, 120, 255, 1) 100%
-  );
+  background: #C47AFF;
 }
 .par_third_section p {
   font-size: 12px;
@@ -358,6 +348,7 @@
 }
 .section_five_title {
   width: 100%;
+  margin-bottom: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -444,6 +435,7 @@
 }
 .section_six_title {
   width: 100%;
+  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
 }

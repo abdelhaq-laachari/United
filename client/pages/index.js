@@ -20,7 +20,7 @@ export default function Home() {
         <div>
           <img className={styles.f_img} src="/images/bg.svg" alt="" />
           <img className={styles.s_img} src="/images/vector.png" alt="" />
-          <img className={styles.t_img} src="/images/shape.svg" alt="" />
+          {/* <img className={styles.t_img} src="/images/shape.svg" alt="" /> */}
         </div>
       </div>
       {/* i'm living with Section start */}
@@ -140,7 +140,7 @@ export default function Home() {
       {/* i'm living with Section end */}
       {/* why choose united section */}
       <div className={styles.third_section}>
-        <img className={styles.shape_img} src="/images/shape.svg" alt="" />
+        {/* <img className={styles.shape_img} src="/images/shape.svg" alt="" /> */}
         <div className={styles.title_third_section}>
           {/* <img src="/images/w.svg" alt="" /> */}
           <h1 className="">Why Choose United</h1>
@@ -245,14 +245,13 @@ export default function Home() {
 
       {/* why choose united section end here */}
       {/* who we are section start */}
-      <img className={styles.shape_img} src="/images/shape.svg" alt="" />
+      {/* <img className={styles.shape_img} src="/images/shape.svg" alt="" /> */}
       <div className={styles.section_five}>
         <div className={styles.section_five_img}>
           <img src="/images/team.png" alt="" />
         </div>
         <div className={styles.section_five_text}>
           <div className={styles.section_five_title}>
-            <img src="/images/w.svg" alt="" />
             <h1 className="">Who are we?</h1>
           </div>
           <p>
@@ -279,12 +278,11 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <img className={styles.shape2_img} src="/images/shape.svg" alt="" />
+      {/* <img className={styles.shape2_img} src="/images/shape.svg" alt="" /> */}
       {/* who we are section end */}
       {/* our partners section start */}
       <div className={styles.section_six}>
         <div className={styles.section_six_title}>
-          <img src="/images/w.svg" alt="" />
           <h1 className="">Our partners</h1>
         </div>
         <div className={styles.section_six_shape}>
